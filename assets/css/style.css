@@ -1,3 +1,78 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
+
+.carousel{
+    top: 0;
+}
+
+.carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+    }
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: rgb(0, 0, 0); opacity: 0.85;
+    width:100%;
+}
+
+hr { 
+    color: #1798c1!important;
+    background-color: #1798c1!important;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+section{
+    background-color: black;
+}
+
+section p{
+    color: white !important;
+    text-align: left;
+}
+
+.fa-plane {
+    color: white;
+    background-color:#1798c1;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+    
+  }
+  
+  .fa-car {
+    color: white;
+    background-color:#1798c1;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
+  
+  .fa-anchor {
+    color: white;
+    background-color:#1798c1;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
+
+.text{
+ color: black !important;
+
+}
+
+
