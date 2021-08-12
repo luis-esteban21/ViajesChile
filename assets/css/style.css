@@ -83,10 +83,41 @@ section p{
     margin-right: 10px;
   }
 
-
+.card-body{
+    background-color: #1798c1;
+    color: white;
+  }
+ 
 .text{
- color: black !important;
-
+ color: white !important;
 }
+ .card_img{
+    height:140px;
+  }
 
+ 
+
+/* ============Estilos footer============*/
+.pie
+{
+  background-color: #16a2b7;
+}
+footer {
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  background-color: #16a2b7;
+  font-weight: 800;
+  position: absolute;
+  width: 100%;
+  padding:2px
+ }
+
+ /* Botones de redes sociales*/
+.btn{
+  width:50px;
+  color:#16a2b7;
+  margin:10px;
+  padding:10px;
+  background-color: white;
+}
 
