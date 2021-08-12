@@ -21,8 +21,8 @@
 <body>
     <header>
         <div>
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
-                <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" height="53"> Viajes Chile</a>
+            <nav id="barra" class="navbar navbar-expand-lg fixed-top navbar-dark bg-interno">
+                <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" class="ml-5"height="30px"> Viajes Chile</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
                 </div>
             </nav>
         </div>
-        <div>
+        <div class="ml-0 mr-0">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -177,6 +177,17 @@
                 </div>
             </div>
         </div>
+    </section>
+   
+    <div class="container_h1" id="contacto">
+        <h1 class="text-white text-center  my-5">Contacto</h1>
+        <hr class="hr_linea">
+    </div>
+
+    <section class="container pb-5">
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/QkxfF2VU?typeform-medium=embed-snippet"
+            style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
     </section>
 
     <footer id="footer" class="container-fluid  d-md-block  bg-info section-icons fondo-footer">

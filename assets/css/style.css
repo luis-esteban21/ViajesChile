@@ -1,27 +1,40 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: #000f08;
-    margin: 0;
-    border: 0;
-    padding: 0;
+    color:white;
+    background-color: black;
 }
+
+.h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+   }
 
 .carousel{
     top: 0;
 }
 
+/* smooth a sroll*/
+.bg-interno{
+    background-color: #16a2b7;
+    transition: all 2s ease;
+   }
+
 .carousel-inner {
     width: 100%; 
     overflow: hidden;
     }
+
+    .carousel-item {
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
 .navbar {
-    position:absolute;
-    top:0;
-    z-index:10;
-    background: rgb(0, 0, 0); opacity: 0.85;
-    width:100%;
-}
+        background-color: transparent !important;
+        color:white;
+      }
 
 hr { 
     color: #1798c1!important;
@@ -69,6 +82,7 @@ section p{
     margin: 0 auto;
     margin-right: 10px;
   }
+
 
 .text{
  color: black !important;
