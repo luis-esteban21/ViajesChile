@@ -86,15 +86,16 @@ section p{
 .card-body{
     background-color: #1798c1;
     color: white;
+    padding-top: 5px;
   }
  
 .text{
  color: white !important;
 }
- .card_img{
-    height:140px;
-  }
 
+  .card {
+    margin: 0 auto;
+}
  
 
 /* ============Estilos footer============*/
@@ -121,5 +122,6 @@ footer {
   background-color: white;
 }
 
+@media (max-width: 992px) {}
 
 
