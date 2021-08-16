@@ -12,8 +12,8 @@ $(window).scroll(function(){
       }
 
    });
-   
-   //$(document).ready(function() {
+
+      //$(document).ready(function() {
     //$('[data-toggle="tooltip"]').tooltip()
   //})
 
@@ -113,11 +113,6 @@ tooltip2.addEventListener('mouseenter', () => clearTimeout(timer2));
 tooltip2.addEventListener('mouseleave', () => tooltip2.classList.remove('activo'));
 tooltip3.addEventListener('mouseenter', () => clearTimeout(timer3));
 tooltip3.addEventListener('mouseleave', () => tooltip3.classList.remove('activo'));
-
-
-
-
-
 
 
 
