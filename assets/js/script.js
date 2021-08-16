@@ -22,12 +22,11 @@ const tooltip = document.querySelector('#tooltip');
 
 
 const calcularPosicionTooltip = () => {
-  const calcularPosicionTooltip2 = () => {
-    const calcularPosicionTooltip3 = () => {
+
 const icono2 = document.querySelector('#icono2');
 const tooltip2 = document.querySelector('#tooltip2')};
 const icono3 = document.querySelector('#icono3');
-const tooltip3 = document.querySelector('#tooltip3')};
+const tooltip3 = document.querySelector('#tooltip3')
 
 
 
@@ -67,7 +66,7 @@ const arriba3 = d - altoTooltip3 - 30;
 
 tooltip3.style.left = `${izquierda3}px`;
 tooltip3.style.top = `${arriba3}px`;
-};
+
 
 window.addEventListener('load', () => calcularPosicionTooltip());
 window.addEventListener('resize', () => calcularPosicionTooltip());
