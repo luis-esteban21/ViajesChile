@@ -4,10 +4,10 @@ $(window).scroll(function(){
 
     if ($(this).scrollTop() > 400) {
         $("#barra").removeClass("navbar");
-       $('#barra').addClass("desplazamiento");
+       $('#barra').addClass(".desplazamiento");
       } else {
     
-       $("#barra").removeClass("desplazamiento");
+       $("#barra").removeClass(".desplazamiento");
        $('#barra').addClass("navbar");
       }
 
