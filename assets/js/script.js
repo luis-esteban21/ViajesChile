@@ -71,12 +71,6 @@ tooltip3.style.top = `${arriba3}px`;
 window.addEventListener('load', () => calcularPosicionTooltip());
 window.addEventListener('resize', () => calcularPosicionTooltip());
 
-window.addEventListener('load', () => calcularPosicionTooltip2());
-window.addEventListener('resize', () => calcularPosicionTooltip2());
-
-window.addEventListener('load', () => calcularPosicionTooltip3());
-window.addEventListener('resize', () => calcularPosicionTooltip3());
-
 icono.addEventListener('mouseenter', () => {
 	tooltip.classList.add('activo');
 	calcularPosicionTooltip();
@@ -84,12 +78,12 @@ icono.addEventListener('mouseenter', () => {
 
 icono2.addEventListener('mouseenter', () => {
 	tooltip2.classList.add('activo');
-	calcularPosicionTooltip2();
+	calcularPosicionTooltip();
 });
 
 icono3.addEventListener('mouseenter', () => {
 	tooltip3.classList.add('activo');
-	calcularPosicionTooltip3();
+	calcularPosicionTooltip();
 });
 
 let timer;
