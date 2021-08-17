@@ -13,15 +13,13 @@ body{
     top: 0;
 }
 
-.desplazamiento{
-  margin-right: auto !important;
-}
 
 /*sroll*/
 .desplazamiento{
     background-color: #16a2b7;
     transition: all 2s ease;
-   }
+    margin-left: auto;
+      }
 
 .carousel-inner {
     width: 100%; 
