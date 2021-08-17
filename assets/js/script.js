@@ -1,5 +1,20 @@
 //Funcion que cambia color con scroll 
 
+$(function(){
+	$("a").click(function(event){
+		if (this.hash !== "") {
+			event.preventDefault();
+			var test = this.hash;
+			
+			$("html, body").animate({
+				scrollTop: $(test).offset().top},2000, function () {
+					window.location.hash = test;
+				});
+			}
+					
+				});
+			});
+
 $(window).scroll(function(){
 
     if ($(this).scrollTop() > 400) {
@@ -15,7 +30,10 @@ $(window).scroll(function(){
 
       $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip()
-  })
+  });
+
+
+
 
 const icono = document.querySelector('#icono');
 const tooltip = document.querySelector('#tooltip');
