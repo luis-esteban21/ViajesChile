@@ -13,6 +13,10 @@ body{
     top: 0;
 }
 
+.desplazamiento{
+  margin-right: auto !important;
+}
+
 /*sroll*/
 .desplazamiento{
     background-color: #16a2b7;
@@ -89,6 +93,10 @@ section p{
     color: white;
     padding-top: 5px;
   }
+
+  .card-img{
+    height:140px;
+  }
  
 .text{
  color: white !important;
@@ -96,6 +104,16 @@ section p{
 
   .card {
     margin: 0 auto;
+}
+
+.menus{
+
+  position:initial;
+}
+
+button{
+text-align: right;
+
 }
  
 
